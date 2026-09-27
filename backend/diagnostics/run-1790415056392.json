@@ -1,0 +1,99 @@
+{
+  "itemUrl": "https://demo.inelabteamdev.com/item/2896",
+  "optionName": "512 GB",
+  "attemptLog": [
+    {
+      "attempt": 1,
+      "panelClass": "offer-panel offer-locked qzb-x1",
+      "submsg": "Hover over the price area to load the current price.",
+      "priceText": "",
+      "durationMs": 1853,
+      "requests": []
+    },
+    {
+      "attempt": 2,
+      "panelClass": "offer-panel offer-locked qzb-x1",
+      "submsg": "Hover over the price area to load the current price.",
+      "priceText": "",
+      "durationMs": 2104,
+      "requests": []
+    },
+    {
+      "attempt": 3,
+      "panelClass": "offer-panel offer-locked qzb-x1",
+      "submsg": "Hover over the price area to load the current price.",
+      "priceText": "",
+      "durationMs": 2182,
+      "requests": []
+    },
+    {
+      "attempt": 4,
+      "panelClass": "offer-panel offer-locked qzb-x1",
+      "submsg": "Hover over the price area to load the current price.",
+      "priceText": "",
+      "durationMs": 1955,
+      "requests": []
+    },
+    {
+      "attempt": 5,
+      "panelClass": "offer-panel offer-locked qzb-x1",
+      "submsg": "Hover over the price area to load the current price.",
+      "priceText": "",
+      "durationMs": 2122,
+      "requests": []
+    }
+  ],
+  "networkLog": [
+    {
+      "t": 1790415037789,
+      "method": "GET",
+      "url": "https://demo.inelabteamdev.com/api/v2/items/2896",
+      "status": 200,
+      "headers": {
+        "x-frame-options": "SAMEORIGIN",
+        "etag": "W/\"7cc-3/UmS5gtfkqIxtSFahJ1tJJGo3I\"",
+        "connection": "keep-alive",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade",
+        "content-length": "1996",
+        "date": "Sat, 26 Sep 2026 09:28:45 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "x-powered-by": "Express",
+        "server": "nginx/1.30.4",
+        "vary": "Origin"
+      },
+      "requestBody": null,
+      "body": null
+    },
+    {
+      "t": 1790415037790,
+      "method": "GET",
+      "url": "https://demo.inelabteamdev.com/api/v2/ui/manifest",
+      "status": 200,
+      "headers": {
+        "x-frame-options": "SAMEORIGIN",
+        "cache-control": "no-store",
+        "etag": "W/\"166-eyWPBJPnEaycwPi46rEzQ3dXLQs\"",
+        "connection": "keep-alive",
+        "x-content-type-options": "nosniff",
+        "referrer-policy": "no-referrer-when-downgrade",
+        "content-length": "358",
+        "date": "Sat, 26 Sep 2026 09:28:45 GMT",
+        "content-type": "application/json; charset=utf-8",
+        "x-powered-by": "Express",
+        "server": "nginx/1.30.4",
+        "vary": "Origin"
+      },
+      "requestBody": null,
+      "body": null
+    }
+  ],
+  "summary": {
+    "v2/items/2896": {
+      "200": 1
+    },
+    "v2/ui/manifest": {
+      "200": 1
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ine-price-tracker-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "scrape:once": "node src/scraper/run-once.js",
+    "scrape:headed": "HEADLESS=false node src/scraper/run-once.js",
+    "diagnose": "node src/scraper/diagnose.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "ws": "^8.22.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}
