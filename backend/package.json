@@ -6,7 +6,8 @@
     "start": "node src/server.js",
     "scrape:once": "node src/scraper/run-once.js",
     "scrape:headed": "HEADLESS=false node src/scraper/run-once.js",
-    "diagnose": "node src/scraper/diagnose.js"
+    "diagnose": "node src/scraper/diagnose.js",
+    "postinstall": "npx playwright install chromium"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.0",
