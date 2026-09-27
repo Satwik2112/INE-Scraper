@@ -46,7 +46,11 @@ export default function ProductSearch({ onTracked }) {
       });
       onTracked?.();
     } catch (err) {
-      alert(`Tracking failed: ${err.message}`);
+      if (err.message.includes('409') || err.message.includes('duplicate key')) {
+        alert(`You are already tracking the option "${optionName}" for this product.`);
+      } else {
+        alert(`Tracking failed: ${err.message}`);
+      }
     } finally {
       setTrackingId(null);
     }
